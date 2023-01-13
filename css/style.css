@@ -239,6 +239,7 @@ button:active {
 
     position: relative;
     font-size: 35px;
+    line-height: 47px;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
@@ -331,6 +332,132 @@ button:active {
     display: flex;
     column-gap: 45px;
 }
+
+
+/* contact section */
+
+.main_title_article_contact {
+    padding-top: 65px;
+    padding-bottom: 35px;
+}
+
+.contact {
+    color: black;
+    width: 100vw;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: center;
+    width: 904px;
+    /* padding-left: 310px;*/
+}
+
+.contact-content-form {
+    margin-left: 16px;
+}
+
+input,
+textarea {
+    width: 444px;
+    outline: none;
+    border: 1px solid #D1D1D1;
+    border-radius: 8px;
+    padding: 8px 12px;
+    margin-bottom: 20px;
+    height: 38px;
+}
+
+input:focus {
+    border-color: var(--color-red);
+    box-shadow: 0 1px 6px #FF00004D;
+}
+
+textarea {
+    height: 140px;
+}
+
+textarea:focus {
+    border-color: var(--color-red);
+    box-shadow: 0 1px 6px #FF00004D;
+}
+
+input::placeholder {
+    font-family: var(--font-family-primary);
+    color: #B2B2B2;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+textarea::placeholder {
+    font-family: var(--font-family-primary);
+    color: #B2B2B2;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.form_checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.form_checkbox {
+    cursor: pointer;
+    display: flex;
+}
+
+.form_checkbox span {
+    height: 22px;
+    flex-shrink: 0;
+    flex-basis: 22px;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    border: 1px solid #D1D1D1;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.form_checkbox input:checked + span {
+    background-image: url('../images/Icon Check.svg');
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 22px;
+    background-position: center;
+}
+
+.consent_text {
+    font-size: 10px;
+    line-height: 14px;
+    font-family: var(--font-family-sedend);
+    color: #B2B2B2;
+    text-align: left;
+    font-weight: 300;
+}
+
+.contact-btn {
+    color: #6A6A6A;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: var(--font-family-primary);
+    font-weight: bold;
+    padding: 11px 52px;
+    box-shadow: 0 3px 6px #525151;
+    border: 1px solid #B2B2B2;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-bottom: 65px;
+}
+
+.contact-btn:focus {
+    color: #FF0000;
+    border: 1px solid #FF0000;
+    box-shadow: 0 3px 6px #FF00004D;
+}
+
+
 
 
 
