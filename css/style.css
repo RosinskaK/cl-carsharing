@@ -251,8 +251,8 @@ button:active {
     margin-bottom: 35px;
 }
 
-.main_title_article::before,
-.main_title_article::after {
+/* .main_title_article::before,
+.main_title_article::after { */
     /*content: "";
     height: 3px;
     background: #FF0000;
@@ -267,7 +267,7 @@ button:active {
     top: 14px;
     border-top: 3px solid var(--color-red);*/
 
-}
+/* } */
 
 .main_title_article strong {
     color: black;
